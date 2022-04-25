@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(232, 243, 243);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+}
