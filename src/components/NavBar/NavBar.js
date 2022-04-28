@@ -4,7 +4,7 @@ import './NavBar.css';
 
 const NavBar = () => (
   <div className="navigation">
-    <h1>Air pollutiion</h1>
+    <h1>sunrise-sunset</h1>
     <nav>
       <ul className="navLinks">
         <li>
