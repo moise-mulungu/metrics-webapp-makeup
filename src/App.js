@@ -1,26 +1,15 @@
-import React, { useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
-import Details from './components/Details/Details';
-import NavBar from './components/NavBar/NavBar';
-import Home from './components/Home/Home';
-import { addSunData } from './Redux/Home/Home';
+import React from 'react';
+import { useRoutes } from 'react-router-dom';
+import './App.css';
+import HomePage from './pages/HomePage';
+import MakeupPage from './pages/MakeupPage';
 
-const App = () => {
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(addSunData());
-  }, []);
-
-  return (
-    <div>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="details" element={<Details />} />
-      </Routes>
-    </div>
-  );
-};
+function App() {
+  const routes = useRoutes([
+    { path: '/', element: <HomePage /> },
+    { path: '/makeup/:name', element: <MakeupPage /> },
+  ]);
+  return routes;
+}
 
 export default App;
