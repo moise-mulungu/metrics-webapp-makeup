@@ -1,12 +1,11 @@
-import { legacy_createStore as createStore, combineReducers, applyMiddleware } from 'redux';
-// import { composeWithDevTools } from 'redux-devtools-extension';
+import { combineReducers, applyMiddleware, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
-import solarData from './Home/Home';
+import makeupReducer from './makeups/makeups';
 
 const rootReducer = combineReducers({
-  solarData,
+  makeups: makeupReducer,
 });
-const store = createStore(rootReducer, applyMiddleware(thunk, logger));
 
+const store = createStore(rootReducer, applyMiddleware(logger, thunk));
 export default store;
