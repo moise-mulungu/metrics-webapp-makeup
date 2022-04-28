@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^8.0.1",
@@ -15,6 +17,7 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -48,6 +51,7 @@
     "@babel/preset-react": "^7.16.7",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",

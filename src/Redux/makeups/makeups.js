@@ -22,4 +22,4 @@ const makeupReducer = (state = initialState, action) => {
   }
 };
 
-export default makeupReducer
+export default makeupReducer;

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useRoutes } from 'react-router-dom';
-import './App.css';
 import HomePage from './pages/HomePage';
 import MakeupPage from './pages/MakeupPage';
 
