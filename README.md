@@ -24,8 +24,9 @@ Users can access any cosmetic products especially makeups for beauty
 
 [github page](https://github.com/moise-mulungu/metrics-webapp-makeup)
 
-## Deploy 
+## Deploy
 
+- [Netlify](https://comfy-alpaca-a10613.netlify.app)
 - [Loom](https://www.loom.com/share/a611653a44bc4d259e768c468bd275e4)
 
 ## Getting Started
