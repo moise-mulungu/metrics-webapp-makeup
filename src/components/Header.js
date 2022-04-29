@@ -6,7 +6,7 @@ import logo from '../assets/images/logo.jpg';
 const Header = () => (
   <header>
     <img src={logo} alt="logo" className="logo" />
-    <h1>Awesome MakeUps</h1>
+    <h1>Cosmetic Products/ Makeups</h1>
     <div className="icons">
       <FontAwesomeIcon icon={faGear} />
     </div>

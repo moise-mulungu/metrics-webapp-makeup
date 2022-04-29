@@ -72,7 +72,7 @@ const MakeupPage = () => {
         <p>Source: http://makeup-api.herokuapp.com/</p>
       </div>
       <div className="footer">
-        <p>Created by Okoroji Victor Ebube at Microverse Inc., US.</p>
+        <p><em>Created by @Moise Mulungu at Microverseinc</em></p>
       </div>
     </section>
   );

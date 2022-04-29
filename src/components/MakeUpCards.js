@@ -47,7 +47,7 @@ const MakeupCards = () => {
           onChange={handleInputChange}
         />
       </div>
-      <h2>YOUR FOUNDATIONS</h2>
+      <h2>Your Foundations</h2>
 
       {(foundations.length === 0 || allFoundations === undefined) ? (
         <div className="not-found">
