@@ -11,6 +11,8 @@ header {
 .logo {
   width: 50px;
   mix-blend-mode: multiply;
+  position: sticky;
+  z-index: 2;
 }
 
 header h1 {
