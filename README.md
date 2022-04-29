@@ -11,8 +11,7 @@ Users can access any cosmetic products especially makeups for beauty
 
 > Open with with the server
 
-![screenshot](src/assets/images/Screenshot-home.png)
-![screenshot](src/assets/images/screenshot-detail.png).
+![screenshot](src/assets/images/Screenshot.png)
 
 ## Built With
 
