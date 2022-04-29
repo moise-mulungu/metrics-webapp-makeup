@@ -47,7 +47,7 @@ body {
 }
 
 .overlay {
-  background-color: #9e909e;
+  background-color: var(--black);
   width: 100%;
   min-height: 100vh;
 }

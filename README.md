@@ -11,7 +11,8 @@ Users can see data of air pollution by clicking on different links
 
 > Open with with the server
 
-![screenshot]().
+![screenshot](src/assets/images/Screenshot-home.png)
+![screenshot](src/assets/images/screenshot-detail.png).
 
 ## Built With
 

@@ -42,7 +42,7 @@
   padding: 17px 0;
   font-weight: bolder;
   text-align: center;
-  color: var(--white);
+  color: var(--black);
 }
 
 .desc-intro {
@@ -70,11 +70,11 @@ tbody tr {
   padding: 20px 10px;
   line-height: 24px;
   background-color: var(--light-harvest);
-  color: var(--white);
+  color: var(--black);
 }
 
 .footer {
-  background-color: #1f2937;
+  background-color: var(--black);
   color: var(--white);
   padding: 15px 0;
   display: flex;

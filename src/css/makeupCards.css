@@ -47,10 +47,14 @@
 
 .even {
   background-color: var(--harvest-gold);
+  color: var(--black);
+  margin: 2px 0 2px 0;
 }
 
 .odd {
   background-color: var(--light-harvest);
+  color: var(--black);
+  margin: 2px 0 2px 0;
 }
 
 .card-name {
