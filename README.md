@@ -27,7 +27,7 @@ Users can access any cosmetic products especially makeups for beauty
 ## Deploy
 
 - [Netlify](https://comfy-alpaca-a10613.netlify.app)
-- [Loom](https://www.loom.com/share/a611653a44bc4d259e768c468bd275e4)
+- [Loom](https://www.loom.com/share/a0eec1132bb1475ea56fe6da4d4c25e5)
 
 ## Getting Started
 

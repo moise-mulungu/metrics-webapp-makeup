@@ -69,10 +69,10 @@ const MakeupPage = () => {
       </section>
       <div className="base-text">
         <p>Data by Foundation brand</p>
-        <p>Source: http://makeup-api.herokuapp.com/</p>
+        <p>Source: https://comfy-alpaca-a10613.netlify.app</p>
       </div>
       <div className="footer">
-        <p><em>Created by @Moise Mulungu at Microverseinc</em></p>
+        <p><em>Created by @Moise Mulungu at Microverseinc 2022</em></p>
       </div>
     </section>
   );
