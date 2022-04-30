@@ -1,17 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Air-pollution
-This is an SPA that consists of air pollution data
+# Metrics Webbapp Makeups
+This is a single page application(SPA) cosmetic products 
 
 ![](file:///home/moise/Leaderboard-project/dist/index.html)
 
-# Air-pollution
-Users can see data of air pollution by clicking on different links
+# Metrics Webbapp Makeups
+Users can access any cosmetic products especially makeups for beauty
 
 
 > Open with with the server
 
-![screenshot](image/bookstore.png).
+![screenshot](src/assets/images/Screenshot.png)
 
 ## Built With
 
@@ -22,17 +22,18 @@ Users can see data of air pollution by clicking on different links
 
 ## Live Demo
 
-[github page](https://github.com/moise-mulungu/Air-pollution)
+[github page](https://github.com/moise-mulungu/metrics-webapp-makeup)
 
-## Deploy 
+## Deploy
 
-- [Netlify](https://animated-stroopwafel-ca252e.netlify.app/)
+- [Netlify](https://comfy-alpaca-a10613.netlify.app)
+- [Loom](https://www.loom.com/share/4c92f09f1de34992857c6ae869365980)
 
 ## Getting Started
 
 To get a local copy of this app you can use :
 ```
-git clone  https://github.com/moise-mulungu/Air-pollution
+git clone  https://github.com/moise-mulungu/metrics-webapp-makeup
 ```
 # Install
 
@@ -57,7 +58,7 @@ Run `npm start` to open the live server
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/moise-mulungu/Air-pollution/issues).
+Feel free to check the [issues page](https://github.com/moise-mulungu/metrics-webapp-makeup/issues).
 
 ## Design Author
 

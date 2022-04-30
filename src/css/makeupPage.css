@@ -1,0 +1,118 @@
+.makeup-section {
+  width: 100%;
+  min-height: 100%;
+}
+
+.makeup-section header {
+  padding: 15px 5%;
+}
+
+.makeup-section header a,
+.navigate {
+  color: var(--white);
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.foundation-intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+  gap: 20px;
+  background-color: var(--light-harvest);
+  align-items: center;
+}
+
+.foundation-img {
+  width: 120px;
+}
+
+.intro-desc {
+  font-size: 0.9rem;
+  color: var(--white);
+}
+
+.intro-desc h2 {
+  padding-bottom: 10px;
+}
+
+.makeup-desc p {
+  background-color: var(--harvest-gold);
+  padding: 17px 0;
+  font-weight: bolder;
+  text-align: center;
+  color: var(--black);
+}
+
+.desc-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tbody tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  padding: 17px 15px;
+}
+
+.base-text {
+  text-align: center;
+  padding: 20px 10px;
+  line-height: 24px;
+  background-color: var(--light-harvest);
+  color: var(--black);
+}
+
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .makeup-section header {
+    padding: 20px 5%;
+  }
+
+  .foundation-intro {
+    padding: 2% 0;
+    justify-content: center;
+  }
+
+  .foundation-img {
+    width: 50%;
+    height: 400px;
+    object-fit: contain;
+  }
+
+  .intro-desc {
+    font-size: 2rem;
+  }
+
+  tbody tr {
+    padding: 20px;
+  }
+
+  .makeup-desc p,
+  .footer {
+    padding: 20px 0;
+  }
+
+  .base-text {
+    font-size: 1.2rem;
+  }
+}

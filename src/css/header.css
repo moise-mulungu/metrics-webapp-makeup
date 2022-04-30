@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: var(--black);
+  color: var(--gray-white);
+  box-shadow: 2px 2px 2px purple;
+}
+
+.logo {
+  width: 50px;
+  mix-blend-mode: multiply;
+  position: sticky;
+  z-index: 2;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  color: var(--orange);
+  padding: 8px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
